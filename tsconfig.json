@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "es6",                          // Define la versión de JavaScript a la que se compilará el código.
+      "module": "commonjs",                      // Define el sistema de módulos.
+      "strict": true,                            // Activa todas las comprobaciones estrictas.
+      "esModuleInterop": true,                   // Agrega interoperabilidad con módulos ES6.
+      "skipLibCheck": true,                      // Omite la verificación de tipos de archivos de declaración.
+      "forceConsistentCasingInFileNames": true,  // Enforce consistent file casing.
+      "outDir": "./dist"                         // Directorio de salida de los archivos compilados.
+    },
+    "include": [
+      "*.ts"                              // Incluir todos los archivos .ts en la carpeta src.
+    ],
+    "exclude": [
+      "node_modules"                             // Excluir la carpeta de node_modules.
+    ]
+}
